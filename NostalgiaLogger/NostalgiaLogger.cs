@@ -38,7 +38,7 @@ public class NostalgiaLogger : Logger
 
     private void StartPlayback()
     {
-        audioReader = new Mp3FileReader(ResourceManager.GetStream("HardDriveSound"));
+        audioReader = new Mp3FileReader(new MemoryStream((byte[])ResourceManager.GetObject("HardDriveSound")));
         outputDevice = new WaveOutEvent();
 
         playbackActive = true;

@@ -1,8 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFrameworks>net6.0;net472</TargetFrameworks>
     <LangVersion>11.0</LangVersion>
+    <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 
